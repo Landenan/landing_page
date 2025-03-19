@@ -1,0 +1,11 @@
+body {
+    font-family: Roboto, sans-serif;
+    height: 1912px;
+    width: 1440px;
+}
+
+header,
+footer {
+    background-color: #1F2937;
+}
+
