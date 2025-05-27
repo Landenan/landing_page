@@ -4,6 +4,18 @@ body {
     width: 1440px;
 }
 
+.hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.links {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 20px;
+}
+
 header,
 footer {
     background-color: #1F2937;
@@ -14,5 +26,5 @@ footer {
 }
 
 .image {
-    width: 300 px;
+    width: 300px;
 }
