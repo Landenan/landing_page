@@ -1,7 +1,14 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
+    height: 100vh;
+    margin: 0;
+    overflow: auto;
     font-family: Roboto, sans-serif;
-    height: 1912px;
-    width: 1440px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -26,10 +33,15 @@ a {
     color: #e5e7eb;
 }
 
+a:hover {
+    color: #3882f6;
+}
+
 header,
 footer {
     background-color: #1F2937;
-    color: #e5e7eb;  
+    color: #e5e7eb;
+    border-radius: 10px;  
 }
 
 .pic {
@@ -37,7 +49,7 @@ footer {
 }
 
 .image {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
@@ -64,4 +76,29 @@ button {
     border-radius: 10px;
     font-size: 18px;
     color: #f9faf8;
+    margin-top: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    margin: 5vh auto;
+}
+
+.pics {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+    height: 200px;
+    border: 2px #1F2937;
+}
+
+section>h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
 }
