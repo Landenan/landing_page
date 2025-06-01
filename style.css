@@ -84,14 +84,14 @@ button {
     flex-direction: column;
     justify-content: space-between;
     flex-wrap: nowrap;
-    margin: 5vh auto;
+    margin: 4vh auto;
 }
 
 .pics {
     display: flex;
     justify-content: space-evenly;
     width: auto;
-    height: 200px;
+    height: 150px;
     border: 2px #1F2937;
 }
 
@@ -101,4 +101,41 @@ section>h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+}
+
+.inspire {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 160px;
+    border-radius: 10px;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+#cite {
+    font-weight: 300;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882f6;
+    padding: 20px 40px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    color: #f9faf8;
+}
+
+.contact>button {
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    margin-bottom: 0px;
+    padding: 10px 565px;
 }
